@@ -102,6 +102,10 @@ a:hover {
   color: #555555;
 }
 
+.color-text-white {
+  color: #FCFCFC;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -1157,6 +1161,10 @@ a:hover {
 //--//-->   NEWS - CARD-B
 ======================================*/
 
+.card-box-b {
+  padding-bottom: 2rem;
+}
+
 .card-header-b {
   padding: 1rem;
   color: #ffffff;
@@ -1392,6 +1400,18 @@ a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+.section-property .title-vertical {
+  position: absolute;
+  letter-spacing: 0;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  top: 50px;
+  text-align: left;
+  font-size: 1.8rem;
+  width: 300px;
+  font-weight: 700;
+  text-align: right;
+}
 
 .section-about .title-vertical {
   position: absolute;
@@ -2022,4 +2042,8 @@ footer .credits {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
+}
+
+.title-project {
+  font-size: 1.6rem;
 }
